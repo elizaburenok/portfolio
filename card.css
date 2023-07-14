@@ -1,0 +1,55 @@
+.card {
+	display: block;
+	flex-grow: 1;
+	padding:  4px 4px 12px 4px;
+}
+
+.imgContainer img {
+	width: 100%;
+	height: auto;
+	display: block;
+	border-radius: 16px;
+	box-shadow: 1px 4px 37px 10px rgba(69, 63, 62, 0.19);
+}
+
+.projectCard_text {
+	margin: 12px 20px;
+}
+
+.projectCard_text span {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 16px;
+	letter-spacing: 0.16px;
+	color: #75777C;
+}
+
+h4 {
+	color: #3D3F41;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 18px;
+	letter-spacing: 0.2px;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.six {
+	display: block;
+	height: 500px;
+	width: 1380px;
+}
+
+/* поведение карточки */
+
+.card:hover {
+	background-color: #E3E3E3;
+	border-radius: 16px;
+	cursor: pointer;
+}
+
+.card:hover h4 {
+	color: #7B91DF;
+}

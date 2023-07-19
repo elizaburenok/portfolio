@@ -1,5 +1,5 @@
 /* медиа запросы */
-@media only screen and (max-width: 390px){
+@media only screen and (max-width: 460px){
     body {
         margin: 1em 1em !important;
     }
